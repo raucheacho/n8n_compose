@@ -1,4 +1,4 @@
-# Script de mise à jour automatique de ngrok pour n8n
+# Script de mise à jour automatique du tunnel de n8n en local avec docker compose et ngrok
 
 Ce script permet de lancer **ngrok** sur le port où n8n est accessible (5678), de récupérer l'URL publique générée par ngrok, de mettre à jour le fichier `docker-compose.yml` avec cette URL, puis de relancer les services Docker via `docker-compose`.
 
