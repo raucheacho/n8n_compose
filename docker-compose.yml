@@ -5,7 +5,7 @@ services:
     ports:
       - "5678:5678"
     environment:
-      - WEBHOOK_URL=https://ec56-196-115-223-46.ngrok-free.app
+      - WEBHOOK_URL=https://d317-196-115-223-46.ngrok-free.app
       - TZ=Africa/Casablanca
       - N8N_RELEASE_TYPE=stable
     volumes:
